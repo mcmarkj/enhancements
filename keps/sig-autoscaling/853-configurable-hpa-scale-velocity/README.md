@@ -223,7 +223,7 @@ Example for `CurReplicas = 10` and HPA controller cycle once per a minute:
 
     recommendations = [10, 9, 8, 9, 9, 8, 9, 8, 9]
 
-- On the 10th minute, we'll add one more recommendation (let it me `8`):
+- On the 10th minute, we'll add one more recommendation (let it be `8`):
 
     recommendations = [10, 9, 8, 9, 9, 8, 9, 8, 9, 8]
 
@@ -266,7 +266,7 @@ Example for `CurReplicas = 2` and HPA controller cycle once per a minute:
 
     recommendations = [2, 3, 19, 10, 3]
 
-- On the 6th minute, we'll add one more recommendation (let it me `4`):
+- On the 6th minute, we'll add one more recommendation (let it be `4`):
 
     recommendations = [2, 3, 19, 10, 3, 4]
 
